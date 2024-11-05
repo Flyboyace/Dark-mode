@@ -1,0 +1,20 @@
+:root {
+    --backgound: #f6f6f6;
+    --backgound-overlay: rgba(255, 255, 255, 0.4);
+    --font-colour: #202020
+  }
+  :root.dark-mode {
+    --backgound: #202020;
+    --backgound-overlay: rgba(32, 32, 32, 0.8);
+    --font-colour: #ecbf1d
+  }
+  body {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: var(--font-colour);
+    background: var(--backgound);
+    transition: background .4s ease-out;
+
+  }
